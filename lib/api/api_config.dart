@@ -3,7 +3,7 @@
 /// Les valeurs sont séparées entre environnement de développement et
 /// production pour éviter de modifier l'application partout dans le code.
 class ApiConfig {
-  static const String _devBaseUrl = 'http://127.0.0.1:8000/api';
+  static const String _devBaseUrl = 'https://ba9a-105-235-138-59.ngrok-free.app/api';
   static const String _prodBaseUrl = 'https://api.forca.example.com/api';
 
   static const bool isProduction = false;
